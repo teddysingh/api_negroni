@@ -1,8 +1,13 @@
 # Building a basic REST API with Negroni + GORM 
+
 **HWService**
+
 Hello World Service is a basic service that shows how you can bring up a basic REST API server using plain `net/http` + `negroni`.
 
+---
+
 **User Service**
+
 This implementation shows how you can make use of `gorm` + `negroni` + `net/http` package to bring up a REST API Server that can 
 
 - Create User
@@ -56,5 +61,8 @@ Following 3 APIs are exposed in UserService
 
 This project is just a PoC to play around with the above mentioned package and of course needs much more polishing before being a production ready code. :)
 
+---
+
 **What next?**
+
 Will be playing next with `FastHTTP` and `gin-gonic` soon.
